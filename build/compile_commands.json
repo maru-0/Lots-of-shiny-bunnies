@@ -1,0 +1,102 @@
+[
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_application.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_application.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_application.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_elapsedtimer.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_elapsedtimer.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_exception.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_exception.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_exception.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_image.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_image.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_image.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_openglfunctions.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_openglfunctions.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_openglwindow.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_openglwindow.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_string.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_string.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_string.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_trackball.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_trackball.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/abcg_trackball.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui_demo.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui_draw.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui_widgets.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui_impl_sdl.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui_impl_sdl.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/abcg/external/fmt",
+  "command": "/usr/bin/c++  -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/fmt.dir/format.cc.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt/format.cc",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt/format.cc"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/bunnies.dir/main.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/main.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/main.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/bunnies.dir/model.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/model.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/model.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/bunnies.dir/openglwindow.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/openglwindow.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/openglwindow.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/bunnies.dir/trackball.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/trackball.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/trackball.cpp"
+},
+{
+  "directory": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/cppitertools -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/fmt -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/glm/.. -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/gsl -I/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external/imgui -isystem /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/bunnies.dir/camera.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/camera.cpp",
+  "file": "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/camera.cpp"
+}
+]

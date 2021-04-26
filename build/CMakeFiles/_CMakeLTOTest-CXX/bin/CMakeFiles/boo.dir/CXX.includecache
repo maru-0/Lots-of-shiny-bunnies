@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+

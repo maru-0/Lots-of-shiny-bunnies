@@ -1,0 +1,88 @@
+#version 460
+
+layout(location = 0) in vec2 inPosition;
+
+uniform vec4 color;
+uniform float scale;
+uniform vec2 translation;
+
+out vec4 fragColor;
+
+void main() {
+    vec2 newPosition = translation + (vec2(inPosition.x*(3.0/4), inPosition.y) * scale);
+    gl_Position = vec4(newPosition, 0, 1);
+    if(gl_Position.y > 1.0f - 2.0f/30 || gl_Position.y < -1.0f + 2.0f/30 || gl_Position.x > 0.3f || gl_Position.x < -0.9f){
+        fragColor = vec4(0,0,0,0);
+    }else{
+        fragColor = color;
+    }
+    
+}#version 460
+
+layout(location = 0) in vec2 inPosition;
+
+uniform vec4 color;
+uniform float pointSize;
+uniform vec2 translation;
+
+out vec4 fragColor;
+
+void main() {
+    vec2 newPosition = translation + (vec2(inPosition.x*(3.0/4), inPosition.y) );
+    gl_Position = vec4(newPosition, 0, 1);
+    if(gl_Position.y > 1.0f - 2.0f/30 || gl_Position.y < -1.0f + 2.0f/30 || gl_Position.x > 0.3f || gl_Position.x < -0.9f){
+        fragColor = vec4(0,0,0,0);
+    }else{
+        fragColor = color;
+    }
+    
+}#version 460
+
+layout(location = 0) in vec2 inPosition;
+layout(location = 1) in vec3 inColor;
+
+uniform vec2 translation;
+uniform float pointSize;
+
+out vec4 fragColor;
+
+void main() {
+  gl_PointSize = pointSize;
+  gl_Position = vec4(inPosition.xy + translation, 0, 1);
+  if(gl_Position.y > 1.0f - 2.0f/30 || gl_Position.y < -1.0f + 2.0f/30){
+    fragColor = vec4(0,0,0,0);
+  }else{
+    fragColor = vec4(inColor, 1);
+  }
+}#version 460
+
+in vec4 fragColor;
+
+out vec4 outColor;
+
+void main() {
+  // float intensity = 1.0 - length(gl_PointCoord - vec2(0.5)) * 2.0;
+  // outColor = fragColor * intensity;
+  if(length(gl_PointCoord) > 1 ){
+    outColor = vec4(0,0,0,0);
+  }else{
+     outColor = vec4(1,0,0,1);
+  }
+ 
+  
+}#version 460
+
+in vec4 fragColor;
+
+out vec4 outColor;
+
+void main() { outColor = fragColor; }#version 460
+
+in vec4 fragColor;
+
+out vec4 outColor;
+
+void main() {
+  float intensity = 1.0 - length(gl_PointCoord - vec2(0.5)) * 2.0;
+  outColor = fragColor * intensity;
+}
