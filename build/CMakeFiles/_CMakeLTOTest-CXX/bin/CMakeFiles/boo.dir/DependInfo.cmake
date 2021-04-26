@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp" "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

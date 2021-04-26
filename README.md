@@ -2,6 +2,8 @@
 
 Project for the course [MCTA008-17 Computer Graphics](http://professor.ufabc.edu.br/~harlen.batagelo/cg/) at [UFABC](https://www.ufabc.edu.br/).
 
+Link: https://maru-0.github.io/Lots-of-shiny-bunnies/public
+
 ## Controls
 You can change some paramaters and move the camera around (using W, A, S, D, Q, E keys).
 

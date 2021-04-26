@@ -77,69 +77,74 @@ include examples/bunnies/CMakeFiles/bunnies.dir/progress.make
 include examples/bunnies/CMakeFiles/bunnies.dir/flags.make
 
 examples/bunnies/CMakeFiles/bunnies.dir/main.cpp.o: examples/bunnies/CMakeFiles/bunnies.dir/flags.make
+examples/bunnies/CMakeFiles/bunnies.dir/main.cpp.o: examples/bunnies/CMakeFiles/bunnies.dir/includes_CXX.rsp
 examples/bunnies/CMakeFiles/bunnies.dir/main.cpp.o: ../examples/bunnies/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/bunnies/CMakeFiles/bunnies.dir/main.cpp.o"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bunnies.dir/main.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/main.cpp
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bunnies.dir/main.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/main.cpp
 
 examples/bunnies/CMakeFiles/bunnies.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bunnies.dir/main.cpp.i"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/main.cpp > CMakeFiles/bunnies.dir/main.cpp.i
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/main.cpp > CMakeFiles/bunnies.dir/main.cpp.i
 
 examples/bunnies/CMakeFiles/bunnies.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bunnies.dir/main.cpp.s"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/main.cpp -o CMakeFiles/bunnies.dir/main.cpp.s
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/main.cpp -o CMakeFiles/bunnies.dir/main.cpp.s
 
 examples/bunnies/CMakeFiles/bunnies.dir/model.cpp.o: examples/bunnies/CMakeFiles/bunnies.dir/flags.make
+examples/bunnies/CMakeFiles/bunnies.dir/model.cpp.o: examples/bunnies/CMakeFiles/bunnies.dir/includes_CXX.rsp
 examples/bunnies/CMakeFiles/bunnies.dir/model.cpp.o: ../examples/bunnies/model.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/bunnies/CMakeFiles/bunnies.dir/model.cpp.o"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bunnies.dir/model.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/model.cpp
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bunnies.dir/model.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/model.cpp
 
 examples/bunnies/CMakeFiles/bunnies.dir/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bunnies.dir/model.cpp.i"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/model.cpp > CMakeFiles/bunnies.dir/model.cpp.i
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/model.cpp > CMakeFiles/bunnies.dir/model.cpp.i
 
 examples/bunnies/CMakeFiles/bunnies.dir/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bunnies.dir/model.cpp.s"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/model.cpp -o CMakeFiles/bunnies.dir/model.cpp.s
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/model.cpp -o CMakeFiles/bunnies.dir/model.cpp.s
 
 examples/bunnies/CMakeFiles/bunnies.dir/openglwindow.cpp.o: examples/bunnies/CMakeFiles/bunnies.dir/flags.make
+examples/bunnies/CMakeFiles/bunnies.dir/openglwindow.cpp.o: examples/bunnies/CMakeFiles/bunnies.dir/includes_CXX.rsp
 examples/bunnies/CMakeFiles/bunnies.dir/openglwindow.cpp.o: ../examples/bunnies/openglwindow.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/bunnies/CMakeFiles/bunnies.dir/openglwindow.cpp.o"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bunnies.dir/openglwindow.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/openglwindow.cpp
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bunnies.dir/openglwindow.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/openglwindow.cpp
 
 examples/bunnies/CMakeFiles/bunnies.dir/openglwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bunnies.dir/openglwindow.cpp.i"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/openglwindow.cpp > CMakeFiles/bunnies.dir/openglwindow.cpp.i
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/openglwindow.cpp > CMakeFiles/bunnies.dir/openglwindow.cpp.i
 
 examples/bunnies/CMakeFiles/bunnies.dir/openglwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bunnies.dir/openglwindow.cpp.s"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/openglwindow.cpp -o CMakeFiles/bunnies.dir/openglwindow.cpp.s
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/openglwindow.cpp -o CMakeFiles/bunnies.dir/openglwindow.cpp.s
 
 examples/bunnies/CMakeFiles/bunnies.dir/trackball.cpp.o: examples/bunnies/CMakeFiles/bunnies.dir/flags.make
+examples/bunnies/CMakeFiles/bunnies.dir/trackball.cpp.o: examples/bunnies/CMakeFiles/bunnies.dir/includes_CXX.rsp
 examples/bunnies/CMakeFiles/bunnies.dir/trackball.cpp.o: ../examples/bunnies/trackball.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object examples/bunnies/CMakeFiles/bunnies.dir/trackball.cpp.o"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bunnies.dir/trackball.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/trackball.cpp
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bunnies.dir/trackball.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/trackball.cpp
 
 examples/bunnies/CMakeFiles/bunnies.dir/trackball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bunnies.dir/trackball.cpp.i"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/trackball.cpp > CMakeFiles/bunnies.dir/trackball.cpp.i
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/trackball.cpp > CMakeFiles/bunnies.dir/trackball.cpp.i
 
 examples/bunnies/CMakeFiles/bunnies.dir/trackball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bunnies.dir/trackball.cpp.s"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/trackball.cpp -o CMakeFiles/bunnies.dir/trackball.cpp.s
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/trackball.cpp -o CMakeFiles/bunnies.dir/trackball.cpp.s
 
 examples/bunnies/CMakeFiles/bunnies.dir/camera.cpp.o: examples/bunnies/CMakeFiles/bunnies.dir/flags.make
+examples/bunnies/CMakeFiles/bunnies.dir/camera.cpp.o: examples/bunnies/CMakeFiles/bunnies.dir/includes_CXX.rsp
 examples/bunnies/CMakeFiles/bunnies.dir/camera.cpp.o: ../examples/bunnies/camera.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object examples/bunnies/CMakeFiles/bunnies.dir/camera.cpp.o"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bunnies.dir/camera.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/camera.cpp
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bunnies.dir/camera.cpp.o -c /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/camera.cpp
 
 examples/bunnies/CMakeFiles/bunnies.dir/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bunnies.dir/camera.cpp.i"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/camera.cpp > CMakeFiles/bunnies.dir/camera.cpp.i
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/camera.cpp > CMakeFiles/bunnies.dir/camera.cpp.i
 
 examples/bunnies/CMakeFiles/bunnies.dir/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bunnies.dir/camera.cpp.s"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/camera.cpp -o CMakeFiles/bunnies.dir/camera.cpp.s
+	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/lib/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/camera.cpp -o CMakeFiles/bunnies.dir/camera.cpp.s
 
 # Object files for target bunnies
 bunnies_OBJECTS = \
@@ -152,33 +157,23 @@ bunnies_OBJECTS = \
 # External object files for target bunnies
 bunnies_EXTERNAL_OBJECTS =
 
-bin/bunnies: examples/bunnies/CMakeFiles/bunnies.dir/main.cpp.o
-bin/bunnies: examples/bunnies/CMakeFiles/bunnies.dir/model.cpp.o
-bin/bunnies: examples/bunnies/CMakeFiles/bunnies.dir/openglwindow.cpp.o
-bin/bunnies: examples/bunnies/CMakeFiles/bunnies.dir/trackball.cpp.o
-bin/bunnies: examples/bunnies/CMakeFiles/bunnies.dir/camera.cpp.o
-bin/bunnies: examples/bunnies/CMakeFiles/bunnies.dir/build.make
-bin/bunnies: abcg/libabcg.a
-bin/bunnies: /usr/lib/libGLX.so
-bin/bunnies: /usr/lib/libOpenGL.so
-bin/bunnies: /usr/lib/libGLEW.so
-bin/bunnies: abcg/external/fmt/libfmt.a
-bin/bunnies: abcg/external/imgui/libimgui.a
-bin/bunnies: /usr/lib/libSDL2main.a
-bin/bunnies: /usr/lib/libSDL2.so
-bin/bunnies: /usr/lib/libSDL2_image.so
-bin/bunnies: examples/bunnies/CMakeFiles/bunnies.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../bin/bunnies"
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/cmake -E remove_directory /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/bin/bunnies
+../public/bunnies.js: examples/bunnies/CMakeFiles/bunnies.dir/main.cpp.o
+../public/bunnies.js: examples/bunnies/CMakeFiles/bunnies.dir/model.cpp.o
+../public/bunnies.js: examples/bunnies/CMakeFiles/bunnies.dir/openglwindow.cpp.o
+../public/bunnies.js: examples/bunnies/CMakeFiles/bunnies.dir/trackball.cpp.o
+../public/bunnies.js: examples/bunnies/CMakeFiles/bunnies.dir/camera.cpp.o
+../public/bunnies.js: examples/bunnies/CMakeFiles/bunnies.dir/build.make
+../public/bunnies.js: abcg/libabcg.a
+../public/bunnies.js: abcg/external/fmt/libfmt.a
+../public/bunnies.js: abcg/external/imgui/libimgui.a
+../public/bunnies.js: examples/bunnies/CMakeFiles/bunnies.dir/linklibs.rsp
+../public/bunnies.js: examples/bunnies/CMakeFiles/bunnies.dir/objects1.rsp
+../public/bunnies.js: examples/bunnies/CMakeFiles/bunnies.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../public/bunnies.js"
 	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bunnies.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/cmake -E make_directory /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/bin/bunnies.dir
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/cmake -E copy /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/bin/bunnies /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/bin/bunnies.dir/bunnies
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/cmake -E remove /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/bin/bunnies
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/cmake -E copy_directory /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/examples/bunnies/assets /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/bin/bunnies.dir/assets
-	cd /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/examples/bunnies && /usr/bin/cmake -E rename /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/bin/bunnies.dir /home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/bin/bunnies
 
 # Rule to build all files generated by this target.
-examples/bunnies/CMakeFiles/bunnies.dir/build: bin/bunnies
+examples/bunnies/CMakeFiles/bunnies.dir/build: ../public/bunnies.js
 
 .PHONY : examples/bunnies/CMakeFiles/bunnies.dir/build
 

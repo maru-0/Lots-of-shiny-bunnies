@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c" "/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/foo.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

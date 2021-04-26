@@ -14,12 +14,36 @@
 # EXTERNAL cache entries
 ########################
 
+//Emscripten ar
+CMAKE_AR:FILEPATH=/usr/lib/emscripten/emar
+
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
+
+//Path to the emulator for the target system.
+CMAKE_CROSSCOMPILING_EMULATOR:FILEPATH=/usr/bin/node
+
+//Emscripten em++
+CMAKE_CXX_COMPILER:FILEPATH=/usr/lib/emscripten/em++
+
+//Emscripten ar
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/lib/emscripten/emar
+
+//Emscripten ranlib
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/lib/emscripten/emranlib
+
+//Emscripten emcc
+CMAKE_C_COMPILER:FILEPATH=/usr/lib/emscripten/emcc
+
+//Emscripten ar
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/lib/emscripten/emar
+
+//Emscripten ranlib
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/lib/emscripten/emranlib
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -92,6 +116,9 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=lto-test
 
+//Emscripten ranlib
+CMAKE_RANLIB:FILEPATH=/usr/lib/emscripten/emranlib
+
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
@@ -144,6 +171,19 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=ON
+
+//If true, we are targeting Emscripten output.
+EMSCRIPTEN:BOOL=1
+
+//Force C/C++ compiler
+EMSCRIPTEN_FORCE_COMPILERS:BOOL=ON
+
+//If set, static library targets generate LLVM bitcode files (.bc).
+// If disabled (default), UNIX ar archives (.a) are generated.
+EMSCRIPTEN_GENERATE_BITCODE_STATIC_LIBRARIES:BOOL=OFF
+
+//Path to a program.
+NODE_JS_EXECUTABLE:FILEPATH=/usr/bin/node
 
 //Value Computed by CMake
 lto-test_BINARY_DIR:STATIC=/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles/_CMakeLTOTest-C/bin
@@ -209,8 +249,6 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/maru-0/Projects/facul/cg/Lots-of-shiny-bunnies/build/CMakeFiles/_CMakeLTOTest-C/src
-//Install .so files without execute permission.
-CMAKE_INSTALL_SO_NO_EXE:INTERNAL=0
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
 CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG

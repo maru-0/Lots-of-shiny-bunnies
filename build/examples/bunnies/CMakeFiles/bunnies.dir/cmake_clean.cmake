@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../bin/bunnies"
-  "../../bin/bunnies.pdb"
+  "../../../public/bunnies.js"
+  "../../../public/bunnies.pdb"
   "CMakeFiles/bunnies.dir/camera.cpp.o"
   "CMakeFiles/bunnies.dir/main.cpp.o"
   "CMakeFiles/bunnies.dir/model.cpp.o"
